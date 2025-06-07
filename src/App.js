@@ -315,7 +315,7 @@ function ProfessionalSupportForm() {
                 WebSolutions © {new Date().getFullYear()} - Todos os direitos reservados
               </p>
               <p className="text-sm text-gray-500 mt-2 md:mt-0">
-                WhatsApp: +351 933 737 672
+                WhatsApp: +351 933 737 676
               </p>
             </div>
           </div>
