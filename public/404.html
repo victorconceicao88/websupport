@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecionando…</title>
+  <script>
+    // Redireciona tudo para a rota hash correspondente
+    const path = window.location.pathname + window.location.search;
+    window.location.replace('/#' + path);
+  </script>
+</head>
+<body>
+  <p>Redirecionando… Se não funcionar, <a id="redir" href="#">clique aqui</a>.</p>
+  <script>
+    document.getElementById('redir').href = '/#' + (window.location.pathname + window.location.search);
+  </script>
+</body>
+</html>
